@@ -30,7 +30,7 @@ When starting a docker swarm the following ports must be open:
 
 This information can be found on docker's [documentation](https://docs.docker.com/engine/swarm/swarm-tutorial/#open-protocols-and-ports-between-the-hosts).
 
-### Docker Manager and Workers
+### Docker Manager and Worker nodes
 
 This role configures hosts in group `docker_swarm_manager` to be manager nodes and hosts in group `docker_swarm_worker` to be worker nodes:
 
